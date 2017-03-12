@@ -19,4 +19,12 @@ typedef struct Annonce {
 typedef Annonce *Liste;
 
 
+void afficherAnnonce (Liste liste); // QUESTION 2
+
+void afficherAnnonceSelonSurface(Liste liste); // QUESTION 5
+
+void sauvegarderAnnonceFichier (Liste liste); //QUESTION 8
+
+
+
 #endif // IMMO_H_INCLUDED
